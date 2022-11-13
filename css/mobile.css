@@ -1,0 +1,43 @@
+/* Media Query */
+@media screen and (max-width: 768px) {
+    body {
+        padding: 2rem;
+    }
+
+    .box {
+        display: none;
+    }
+    
+    .main {
+        display: block;
+        max-height: 80vh;
+    }
+
+    .images {
+        display: block;
+        height: 18vw;
+    }
+
+    .image {
+        width: 50%;
+        margin: 0 auto;
+        position: relative;
+        top: -110%;
+    
+        
+        
+    }
+
+    .image_element {
+        left: auto;
+    }
+
+    .content {
+        padding: 2rem;
+    
+    }
+
+    .content_title {
+        text-align: center;
+    }
+}
